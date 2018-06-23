@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { MatInputModule,
   MatCardModule,
   MatButtonModule,
+  MatMenuModule,
+  MatIconModule,
   MatToolbarModule,
   MatExpansionModule,
   MatProgressSpinnerModule } from '@angular/material';
@@ -25,6 +27,8 @@ import { PostViewComponent } from './posts/post-view/post-view.component';
     BrowserModule,
     BrowserAnimationsModule,
     MatInputModule,
+    MatIconModule,
+    MatMenuModule,
     MatCardModule,
     MatButtonModule,
     MatToolbarModule,

@@ -8,3 +8,14 @@ i {
     margin-left: 15px;
     font-size: 1.2em;
 }
+
+.button-row {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+mat-toolbar-row {
+    box-shadow: 0 1px 1px #b8c1fa;
+}
